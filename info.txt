@@ -1,0 +1,13 @@
+GPU accelerated computing is the use of a graphics processing unit (GPU) together with a CPU to accelerate scientific, engineering, and enterprise applications. The main objective of the project is be able to utilize the GPU resources as well as possible and design, implement and run a program to apply it.
+
+The use of GPUs for scientific calculations have been proven very useful due to the large amount of operations required and the capability of the GPUs to run this calculations in parallel. I’ve chosen cosmological measurements as field of study.
+
+The two-point angular correlation function requires independent calculations of the same quantity for all data points, which makes it an ideal candidate for parallelization.
+
+The two-point angular correlation function is a statistical measure of to what extent galaxies are randomly distributed in the universe, or lumped together. Once I have implemented it, I should run it with two different data sets: the real data, D (real observation of galaxy coordinates) and the random data, R (randomly generated galaxy coordinates). 
+
+The input consists of a number of position of galaxies on a celestial sphere (all of them at the same distance from the earth). The observations are located on a sphere centred on the earth. Therefore, the angular separation between two observations gives the distance between the galaxies
+
+The idea is to compare the real observations to a randomly generated set and see if the real galaxies are more lumped together in space than in a random distribution. If they are, this can be seen as an evidence of the gravitational forces caused by cold dark matter, which causes more attractive forces than what can be explained by the known visible mass of the galaxies.
+
+For this, I have to calculate the histogram distribution of angular separations, covering [0 - 64] degrees. Each histogram contains the number of coordinate pairs with angles between each pair of galaxies (DD, DR and RR).

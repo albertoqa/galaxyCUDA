@@ -14,3 +14,8 @@ I've obtained a code speed-up of 70x faster (on average) compared to computing t
 
 
 ***More details on the info file***
+
+
+* There are some auxiliar files attached to this project:
+  * hello world, CUDA programming
+  * simple sum, CUDA programming
