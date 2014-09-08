@@ -13,4 +13,4 @@ calculations.
 I've obtained a code speed-up of 70x faster (on average) compared to computing the same calculation on the CPU.
 
 
-** * More details on the info file * **
+***More details on the info file***
